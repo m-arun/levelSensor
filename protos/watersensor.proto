@@ -1,0 +1,10 @@
+syntax = "proto2";
+
+message WaterSensor{
+
+required int32 time_stamp = 1;
+optional float water_level = 2;
+optional float temperature = 3;
+optional int32 battery = 4;
+
+}
